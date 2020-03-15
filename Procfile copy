@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+web: gunicorn djangoBlog.wsgi
+=======
+web: gunicorn djangoWebsite.wsgi
+>>>>>>> 2379436f9720fdc6b42c6971adecee5469499376

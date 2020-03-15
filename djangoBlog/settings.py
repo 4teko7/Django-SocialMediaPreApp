@@ -9,8 +9,12 @@ https://docs.djangoproject.com/en/1.11/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
-import os
+# encoding=utf8
+import sys
 
+
+import os
+import django_heroku
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_CHARSET = 'utf-8'
@@ -20,12 +24,12 @@ DEFAULT_CHARSET = 'utf-8'
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ')!h^pv*2g@i57r9i-pb*#_h3rzi)twqi@z%(!wtpo9u4#xsb4!'
-
+SECRET_KEY=os.environ.get("SECRET_KEY")
+# SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['socialtodos.herokuapp.com']
 
 
 # Application definition
@@ -151,6 +155,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'frommytodos@gmail.com'  
-EMAIL_HOST_PASSWORD = ''  
+EMAIL_HOST_USER = os.environ.get("EMAIL_USER")
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_PASS")
 EMAIL_PORT = 587
+
+django_heroku.settings(locals())
