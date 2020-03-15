@@ -207,6 +207,7 @@ def start_job():
 
 
 def sendEmail(todo):
+	
     port = settings.EMAIL_PORT
     smtp_server = settings.EMAIL_HOST
     sender_email = settings.EMAIL_HOST_USER
@@ -221,9 +222,13 @@ def sendEmail(todo):
         server.starttls(context=context)
         server.ehlo()  # Can be omitted
         server.login(sender_email, password)
+        print("INN SEND EMAIL METHOD BEFORE MESSAGING")
         try:
+        	
             server.sendmail(sender_email, receiver_email, message)
             todo.isEmailSent = True
+            print("EMAIL ATTI @@@@@@@@@@@@@@@@@@@@@@@")
             todo.save()
         except:
-            pass
+            print("EMAIL ATARKEN HATA ALDI")
+           
