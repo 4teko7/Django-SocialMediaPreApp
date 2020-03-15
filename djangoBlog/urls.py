@@ -222,13 +222,13 @@ def sendEmail(todo):
         server.starttls(context=context)
         server.ehlo()  # Can be omitted
         server.login(sender_email, password)
-        print("INN SEND EMAIL METHOD BEFORE MESSAGING")
+        # print("INN SEND EMAIL METHOD BEFORE MESSAGING")
         try:
         	
             server.sendmail(sender_email, receiver_email, message)
             print("EMAIL GONDERILDI")
             todo.isEmailSent = True
-            print("EMAIL ATTI @@@@@@@@@@@@@@@@@@@@@@@")
+            # print("EMAIL ATTI @@@@@@@@@@@@@@@@@@@@@@@")
             todo.save()
         except:
             print("EMAIL ATARKEN HATA ALDI")
