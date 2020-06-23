@@ -1,4 +1,4 @@
-# djangoWebsite
+# Django-SocialMediaPreApp
 # from my social blog repository
 
  <h3>Social Blog With Python - Django<h3>
@@ -15,23 +15,23 @@
   <hr>
  <div align="center" style="display:flex;">
  
-  <img height="800" src = "https://github.com/4teko7/djangoWebsite/blob/master/Photos%20of%20application/1.jpg">
-  <img height="800" src = "https://github.com/4teko7/djangoWebsite/blob/master/Photos%20of%20application/2.jpg">
+  <img height="800" src = "https://github.com/4teko7/Django-SocialMediaPreApp/blob/master/Photos%20of%20application/1.jpg">
+  <img height="800" src = "https://github.com/4teko7/Django-SocialMediaPreApp/blob/master/Photos%20of%20application/2.jpg">
 <hr>
-  <img height="800" src = "https://github.com/4teko7/djangoWebsite/blob/master/Photos%20of%20application/3.jpg">
-  <img height="800" src = "https://github.com/4teko7/djangoWebsite/blob/master/Photos%20of%20application/4.jpg">
+  <img height="800" src = "https://github.com/4teko7/Django-SocialMediaPreApp/blob/master/Photos%20of%20application/3.jpg">
+  <img height="800" src = "https://github.com/4teko7/Django-SocialMediaPreApp/blob/master/Photos%20of%20application/4.jpg">
   
-  <img height="800" src = "https://github.com/4teko7/djangoWebsite/blob/master/Photos%20of%20application/5.jpg">
-  <img height="800" src = "https://github.com/4teko7/djangoWebsite/blob/master/Photos%20of%20application/6.jpg">
+  <img height="800" src = "https://github.com/4teko7/Django-SocialMediaPreApp/blob/master/Photos%20of%20application/5.jpg">
+  <img height="800" src = "https://github.com/4teko7/Django-SocialMediaPreApp/blob/master/Photos%20of%20application/6.jpg">
 <hr>  
-  <img height="800" src = "https://github.com/4teko7/djangoWebsite/blob/master/Photos%20of%20application/7.jpg">
-  <img height="800" src = "https://github.com/4teko7/djangoWebsite/blob/master/Photos%20of%20application/8.jpg">
+  <img height="800" src = "https://github.com/4teko7/Django-SocialMediaPreApp/blob/master/Photos%20of%20application/7.jpg">
+  <img height="800" src = "https://github.com/4teko7/Django-SocialMediaPreApp/blob/master/Photos%20of%20application/8.jpg">
 <hr>  
-  <img height="800" src = "https://github.com/4teko7/djangoWebsite/blob/master/Photos%20of%20application/9.jpg">
-  <img height="800" src = "https://github.com/4teko7/djangoWebsite/blob/master/Photos%20of%20application/10.jpg">
+  <img height="800" src = "https://github.com/4teko7/Django-SocialMediaPreApp/blob/master/Photos%20of%20application/9.jpg">
+  <img height="800" src = "https://github.com/4teko7/Django-SocialMediaPreApp/blob/master/Photos%20of%20application/10.jpg">
 <hr>
-  <img height="800" src = "https://github.com/4teko7/djangoWebsite/blob/master/Photos%20of%20application/11.jpg">
-  <img height="800" src = "https://github.com/4teko7/djangoWebsite/blob/master/Photos%20of%20application/12.jpg">
+  <img height="800" src = "https://github.com/4teko7/Django-SocialMediaPreApp/blob/master/Photos%20of%20application/11.jpg">
+  <img height="800" src = "https://github.com/4teko7/Django-SocialMediaPreApp/blob/master/Photos%20of%20application/12.jpg">
 
 </div>
 
